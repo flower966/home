@@ -1,0 +1,376 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-01-09 11:02:38
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-01-10 22:18:18
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 535827 */
+  src: url('http://at.alicdn.com/t/font_535827_rqs4y0t9qsacq5mi.eot');
+  src: url('http://at.alicdn.com/t/font_535827_rqs4y0t9qsacq5mi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_535827_rqs4y0t9qsacq5mi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_535827_rqs4y0t9qsacq5mi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_535827_rqs4y0t9qsacq5mi.svg#iconfont') format('svg');
+}
+.iconfont
+{
+	font-family:'iconfont';
+}
+i
+{
+	font-style: normal;
+}
+/* about */
+.about{
+   padding: 120px 0;
+   background: #ffffff;
+}
+.about_head{
+	max-width: 600px;
+	/* background: #ffffff; */
+	margin: 0 auto;
+}
+.about_head h1{
+	font-size: 36px;
+	color: #0D0D0D;
+	text-align: center;
+	font-weight: 700;
+}
+.about_head p{
+	font-size: 14px;
+	line-height: 22px;
+	color: #555755;
+	text-align: center;
+}
+.about_img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-top: 30px;
+}
+.about_text h2{
+	font-size: 36px;
+	color: #0D0D0D;
+	font-weight: 500;
+	margin-top: 80px;
+	text-align: center;
+}
+.about_text p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #55575d;
+}
+.skill{
+	padding: 120px 0 90px 0;
+    background: #f3f3f4;
+}
+.skill_text{
+	background: #f3f3f4;
+	margin-top: 30px;
+}
+.big{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 40px;
+	background: #ffffff;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+.big:hover{
+	transform: translateY(-10px);
+	box-shadow: 0 4px 16px 0 #808080;
+}
+
+.icon1{
+	font-size: 31px;
+	color: #333333;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+} 
+.skill_text h1{
+	font-size: 21px;
+	color: #0d0d0d;
+	margin-top: 0;
+	text-align: center;
+}
+.p{
+	width: 288px;
+	margin: 0 auto;
+}
+.skill_text p{
+	font-size: 13px;
+	color: #55575d;
+	text-align: center;
+}
+.web{
+	padding: 120px 0;
+    background: #ffffff;
+}
+.web_pic{
+	background: #ffffff;
+	margin-top: 30px;
+}
+.link{
+	width: 100%;
+	text-align: center;
+}
+.link li{
+	display: inline-block;
+	margin-left: 25px;
+}
+.link a{
+	display: block;
+	font-size: 12px;
+	color: #979797;
+}
+.web_box{
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	position: relative;
+}
+.web_box img{
+	width: 100%;
+	height: 100%;
+}
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+	overflow: hidden;
+}
+.anniu{
+	width: 36px;
+	height: 36px;
+	background: #ffffff;
+    opacity: 0;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 75px;
+	transition: all 1s;
+}
+.icon10{
+	font-size: 25px;
+	line-height: 36px;
+	margin-left: 5px;
+	color: black;
+}
+.icon10:hover{
+	color: skyblue;
+}
+.word1{
+	font-size: 1px;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 120px;
+	text-align: center;
+	opacity: 0;
+	transition: all 1s;	
+}
+.word2{
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: -30px;
+	text-align: center;
+	transition: all 1s;
+}
+/* 底部 */
+.dibu{
+	padding: 120px 0;
+	background: #F3F3F4;
+}
+.input_text{
+	width: 100%;
+	border: 1px solid #e4e7e9;
+	border-radius: 3px;
+	outline: none;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #a3a8ab;
+	margin-top: 4px;
+	margin-bottom: 20px;
+	padding: 10px 15px;
+}
+.button{
+	background: #1a1a1a;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 2px;
+	font-size: 25px;
+}
+.info{
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	/* margin-top: 5px; */
+}
+.info_img{
+	width: 60px;
+	height: 60px;
+	background: #ffffff;
+}
+.info_img i{
+	display: block;
+	font-family: 'iconfont';
+	color: #55575d;
+	text-align: center;
+	line-height: 60px;
+	font-size: 30px;
+}
+.info_text{
+	margin-left: 30px;
+}
+.info_text p{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #959595;
+}
+footer{
+	width: 100%;
+	height: auto;
+	background: #0d1218;
+	position: relative;
+	padding: 42px 0;
+}
+
+.m1{
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+	margin-top: 10px;
+}
+.n1 ul{
+	float: right;
+	margin-top: 10px;
+}
+.n1 ul li{
+	width: 36px;
+	height: 36px;
+	float: left;
+	border-radius: 50%;
+	margin-right: 5px;
+	background: #696969;
+}
+.n1 ul li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+	border-radius: 50%;
+}
+.n1 ul li a i{
+	display: block;
+	font-family: 'iconfont';
+	color: #0d1218;
+	font-size: 20px;
+	text-align: center;
+	line-height: 36px;
+}
+.n1 ul li a:hover i{
+	background:#33c3f8; 
+	color: #ffffff;
+}
+.container a{
+	text-decoration: none;
+}
+.z1{
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 50%;
+	transform: translateY(-50%) rotate(45deg);
+	background:  #0d1218;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+}
+.z1 i{
+	display: block;
+	font-size: 22px;
+	color: #fff;
+	font-family: 'iconfont';
+	transform: rotate(-45deg);
+
+}
+.z1:hover{
+	background: #33c3f8;
+}
+.z1:hover i{ 
+	color: #ffffff;
+}
+.web_box:hover .zhezhao{
+    background: rgba(0, 0, 0, 0.7);
+}
+.web_box:hover .zhezhao p{
+    transform: translateY(-120px);
+
+}
+.web_box:hover .zhezhao h3{
+	opacity: 1;
+	transform: scale(2)
+}
+
+.web_box:hover .zhezhao .anniu{
+    opacity: 1;
+    transform: rotateY(360deg) ;
+}
+.web_box:hover .zhezhao .anniu1{
+     opacity: 1;
+     transform: rotateY(360deg) ;
+}
+/* 移动端 <768px */
+@media screen  and (max-width: 768px){
+	.about_img{
+		margin-bottom: 30px;
+	}
+	.anniu{
+		top: 30%;
+	}
+}
+/* 平板  768-992 */
+@media screen  and (min-width: 768px) and (max-width: 992px){
+	.about_img{
+		margin-bottom: 30px;
+	}
+	.anniu{
+		top: 30%;
+	}
+}
+/* pc小屏 992-1200 */
+@media screen  and (min-width: 992px) and (max-width: 1200px){
+    .anniu{
+		top: 30%;
+	}
+}
+/* pc大屏 >1200 */
+@media screen  and (max-width: 1200px){
+	 .anniu{
+		top: 30%;
+	}
+}
